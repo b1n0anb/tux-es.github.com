@@ -2,18 +2,18 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://tux-es.github.com
-title: "Tux - ES"
-subtitle: "O Portal da Comunidade Tux - ES"
-author: "Comunidade Tux - ES"
+url: http://www.tux-es.org
+title: Comunidade Tux-ES
+subtitle: "Portal da comunidade Tux-ES"
+author: Tux
 simple_search: http://google.com/search
-description:
+description: Portal da comunidade Tux-ES
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: "%d/%m/%y às %H:%M hrs"
+date_format: "%d/%m/%y %H:%M"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
@@ -39,7 +39,7 @@ pygments: false # default python pygments have been replaced by pygments.rb
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
-excerpt_link: "Leia mais :) &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
 titlecase: true       # Converts page and post titles to titlecase
 
@@ -59,13 +59,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 
 # Github repositories
 github_user: Tux-ES
-github_repo_count: 5
+github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
 twitter_user: _Tuxes
-twitter_tweet_count: 5
+twitter_tweet_count: 3
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
@@ -89,11 +89,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: tuxes
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-34640701-1
 
 # Facebook Like
-facebook_like: true
+facebook_like: false
