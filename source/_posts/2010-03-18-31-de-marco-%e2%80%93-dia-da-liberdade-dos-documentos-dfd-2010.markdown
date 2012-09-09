@@ -20,5 +20,3 @@ Venho informar que a grade está fechada para o DFD - Dia da Liberdade dos Docum
 <strong>21:00 - 21:40</strong> -- Palestra: Sistema de Gerenciamento de Atendimento Livre: acabe com as filas. <em>[Adilson Oliveira Cruz] </em>
 
 Um abraço.
-
-</div>
