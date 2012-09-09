@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Slides FLISOL 2011"
+date: 2011-04-15 18:13
+comments: true
+published: true
+---
+Saudações pessoal.
+
+Os palestrantes disponibilizam para download seus slides ocorridos na Faesa no dia 09 de Abril, o evento FLISOL 2011.
+
+<a href="http://www.tux-es.org/arquivos/FLISOL2011_apresenta%C3%A7%C3%A3o_RevistaEspiritoLivre.pdf"><strong>Formatos abertos de arquivos na Produção Editorial</strong> - <em>João Fernando Costa Junior</em></a>
+
+<a href="http://www.tux-es.org/arquivos/FLISOL2011_IPv6-Voce-esta-preparado-para-ele-v15.pdf"><strong>IPv6: Você está preparado para ele?</strong> - <em>Gilberto Sudré</em></a>
+
+<a href="http://www.tux-es.org/arquivos/FLISOL2011_case_KWVix.pdf"><strong>Case KW Vix, empreendendo com Software Livre</strong> - <em>José Carlos Valandro (Carlos)</em></a>
+
+<strong>Lançamento Gnome 3</strong> - <em>Vinícius</em> - Uma palestra mostrando o GNOME 3 funcionando e apresentando sem slide.
+
+<a href="http://www.tux-es.org/arquivos/FLISOL2011_palestra-xen.pdf"><strong>Virtualização com Xen</strong> - <em>André Luiz Fraga Moreira</em></a>
+
+<a href="http://www.tux-es.org/arquivos/FLISOL2011_desenvolvendo_para_android.pdf"><strong>Desenvolvimento para Android</strong> - <em>Claudio Roberto França Pereira</em></a>
+
+Para quem deseja, cada palestrante possui conta no Slide Share para visualização online.
+
+Abraços.
+

@@ -1,0 +1,51 @@
+---
+layout: post
+title: "FLISOL 2011"
+date: 2011-03-18 18:10
+comments: true
+published: true
+---
+
+<img src="http://binoinformatica.com/blog/imagens/flisol-vitoria.png" alt="" width="342" height="102" />
+
+O FLISOL, Festival Latino Americano de Instalação de Sofware Livre, é um  evento voltado para divulgação do Software Livre que acontece  mutuamente em vários estados e países da América Latina. Considerado uns  dos maiores eventos de Sofware Livre o FLISOL é normalmente realizado  no mês de Abril, esse ano não será diferente, no dia 09 de Abril de 2011  as 09 horas (sim, num sábado. ) a comunidade Tux-ES e a <a href="http://www.espiritolivre.org/">Iniciativa Espírito Livre</a> realizará mais uma edição do FLISOL em Vitória que será realizada pela  primeira vez em conjunto com o DFD, Document Freedom Day.
+<h3>Data:</h3>
+09 de Abril de 2011
+<h3>Local:</h3>
+FAESA da Av. Vitória (Rua Anselmo Serrat, 199 - Monte Belo, Vitória, ES - CEP 29053-250)
+
+Bloco 6 - 4° Pav. Salas 7 e 8
+<h3>Início:</h3>
+09:00 horas
+<h3>Programação</h3>
+<ul>
+	<li>
+<h4>09:00 - Palestra I: Formatos abertos de arquivos na Produção Editorial</h4>
+<strong>João Fernando:</strong> Administrador, professor universitário,  especialista em Informática na Educação e mestrando em educação. É  editor-chefe, diagramador e responsável pela Revista Espírito Livre,  coordenador do Grupo de Usuários BrOffice.org do Espírito Santo  [GUBrO-ES] e idealizador da Iniciativa Espírito Livre, entidade que atua  na mobilização e organização de diversos eventos de software livre no  ES e região. Também atua como responsável pelo Projeto Software  Livre-ES.</li>
+	<li>
+<h4>10:00 - Palestra II : IPv6: Você está preparado para ele?</h4>
+<strong>Gilberto Sudré:</strong> Professor, Consultor e Pesquisador da área  de Segurança da Informação do Ifes - Instituto Federal de Educação,  Ciência e Tecnologia do ES. Comentarista de Tecnologia da Rádio CBN.  Articulista do Jornal A Gazeta e Portal iMasters. Membro do comitê  técnico CB21/CE27 da ABNT sobre Segurança da Informação. Autor dos  livros Antenado na Tecnologia, Redes de Computadores e Internet:O  encontro de 2 Mundos. Fã de Tecnologia e Fotografia.</li>
+	<li>
+<h4>11:00 - Palestra III : Case KW Vix, empreendendo com Software Livre</h4>
+<strong>José Carlos Valandro (Carlos):</strong> Empresário,fundador e  administrador da KW Vix Automação (@kwvix), atua no setor de informática  e automação a mais de 6 anos. Entusiasta do software livre, quase  xiita, consegue ganhar dinheiro sem utilizar software propietário e sem  saber programar. Já instalou linux em quase mil PC's e ainda foi pago  por isso.</li>
+	<li>
+<h4>12:00 - Almoço: Porque também somos seres humanos e temos necessidades..</h4>
+</li>
+	<li>
+<h4>13:30 - Palestra IV: Lançamento Gnome 3</h4>
+<strong>Vinicius:</strong> ...</li>
+	<li>
+<h4>14:30 - Palestra V: Virtualização com Xen</h4>
+<strong>André Luiz Fraga Moreira:</strong> Usuário de GNU/Linux desde 2008, trabalha com administração de  servidores Linux na Spirit Linux, cursando Tecnologia em Redes de  Computadores na Faesa, certificado LPI 1 e participante ativo da  comunidade Tux-ES</li>
+	<li>
+<h4>15:30 - Palestra VI : Desenvolvimento para Android</h4>
+<strong>Claudio Roberto França Pereira:</strong> Formando (último período, UFA!) de Engenharia de Computação da UFES, já  trabalhou com desenvolvimento web usando tecnologias open source (LAMP,  PostgreSQL, JavaScript, jQuery) e utilizando ferramentas Microsoft  (SQLServer, ASP com VBScript e .NET). Atualmente trabalhando em projetos  de pesquisa usando o Android como plataforma móvel, fazendo integração  entre aplicações web e mobile, utilizando interfaces REST para  comunicação entre cliente-servidor. Usuário Linux diário e entusiasta de  gadgets e celulares, aposta na evolução e padronização do Qt e do  Meego, como plataformas open source do futuro, que inclusive já possuem  projetos de portabilidade do framework para Android e iOS</li>
+</ul>
+<h3>Atividades paralelas</h3>
+<strong> às 09:00 </strong> terá início um <strong> Dojo </strong> ministrado por:
+<ul>Flávia Missi: Apaixonada por desenvolvimento de software desde o  primeiro "hello world". Geek, curiosa, interessada e eterna estudante ;)  Usuária e amante de software livre. Estudante de Ciência da Computação.  Mesmo sendo autodidata, sempre procurou conhecer e aplicar boas  práticas de programação.</ul>
+<strong> às 13:30 </strong> será realizado um <strong> campeonato </strong> de "Jogo à definir" organizado por:
+<ul>"Rapha" M Rocha: Adepta do Software, Analista de Sistemas da Rede  Gazeta, usuária do GNU/Linux e amante do Larry a Vaca (Mascote do  Gentoo), vegetariana, defensora dos animais e participante ativa da  comunidade Tux-ES onde colabora na organização de eventos no estado.</ul>
+Juntamente com:
+<ul>João Víctor Rocon Maia: Aluno do curso de Engenheria de Computação -  UFES, usuário GNU/Linux desde 2004, Slackware 9.2, hoje usuário Arch  Linux. Experiência com servidores GNU/Linux desde 2007 como bolsista na  UFES. Programador por diversão, viciado em competições de programação,  experiência com C/C++, Python e JAVA.</ul>
+Site do evento: <a href="http://flisol.espiritolivre.org/">http://flisol.espiritolivre.org</a>

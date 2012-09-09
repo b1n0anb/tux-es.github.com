@@ -1,0 +1,28 @@
+---
+layout: post
+title: "FLISOL 2012"
+date: 2010-01-29 09:40
+comments: true
+categories: linux, software livre, opensource, flisol
+published: true
+---
+
+O FLISOL 2010 acontecerá no _dia 24/04 no  miniauditório na FAESA – Campus 1_,  Rua Anselmo Serrat, 199, próximo a  Av. Vitória e Av. Marechal Campus, no bairro Ilha de Santa Maria, em  Vitória/ES.
+
+A grade de programação:
+
+**O Install Fest é paralelo às Palestras.**
+
+* 08:40h – 09:00h – **Inscrição e recebimento dos donativos**
+* 09:00h – 09:40h – **Palestra 1: Distribuições Linux** [Almir Mendes]
+* 09:40h – 10:20h – **Palestra 2: Gentoo Linux** [Raphaela Marques Rocha]
+* 10:20h – 11:00h – **Palestra 3: Arch Linux** [Albino Biasutti Neto]
+* 11:00h – 11:40h – **Palestra 4: CentOS Linux** [Rodrigo Griffo]
+* 11:40h – 12:20h – **Palestra 5: Empreendedorismo Social e Software Livre** [Cristiano Vitorino]
+
+Inscrição: **1kg de alimento não-perecível**, a ser entregue no ato da inscrição.
+
+Site oficial: <a title="http://flisol.net/FLISOL2010/Brasil/Vitoria" href="http://flisol.net/FLISOL2010/Brasil/Vitoria">http://flisol.net/FLISOL2010/Brasil/Vitoria</a>
+Site oficial: [http://flisol.net/FLISOL2010/Brasil/Vitoria](http://flisol.net/FLISOL2010/Brasil/Vitoria)
+
+Abraços
