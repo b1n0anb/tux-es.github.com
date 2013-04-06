@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Parabéns à Tux-ES"
+title: "Parabéns a Tux-ES"
 date: 2010-12-08 18:05
 comments: true
 published: true

@@ -6,7 +6,7 @@ comments: true
 published: true
 ---
 
-<a href="http://www.tux-es.org/portal/wp-content/uploads/2011/09/tux-es-li-setembro.png"><img class="size-full wp-image-299" title="tux-es-li-setembro" src="http://www.tux-es.org/portal/wp-content/uploads/2011/09/tux-es-li-setembro.png" alt="" width="294" height="78" /></a>
+<a href="/images/2011/09/tux-es-li-setembro.png"><img class="size-full wp-image-299" title="tux-es-li-setembro" src="/images/2011/09/tux-es-li-setembro.png" alt="" width="294" height="78" /></a>
 
 Se aproxima o dia de mais uma edição do Liberdade Interativa, o segundo do ano.
 
@@ -26,6 +26,6 @@ Nessa edição o LI contará com maior diversidade de temas: desenvolvimento, ot
 
 &nbsp;
 <h4><strong>Para divulgar use:</strong></h4>
-<a href="http://www.tux-es.org/portal/wp-content/uploads/2011/09/tux-es-li-setembro-22.png">Banner 210x63</a>; <a href="http://www.tux-es.org/portal/wp-content/uploads/2011/09/tux-es-li-setembro-31.png">Banner 236x70</a>; <a href="http://www.tux-es.org/portal/wp-content/uploads/2011/09/tux-es-li-setembro.png">Banner grande</a>; <a href="http://www.tux-es.org/portal/wp-content/uploads/2011/09/li-setembro-180x150.png">Banner 180x150</a>; <a href="http://www.tux-es.org/portal/wp-content/uploads/2011/09/li-setembro-160x200.png">Banner 160x200</a> (com horário e local);
+<a href="/images/2011/09/tux-es-li-setembro-22.png">Banner 210x63</a>; <a href="/images/2011/09/tux-es-li-setembro-31.png">Banner 236x70</a>; <a href="/images/2011/09/tux-es-li-setembro.png">Banner grande</a>; <a href="/images/2011/09/li-setembro-180x150.png">Banner 180x150</a>; <a href="/images/2011/09/li-setembro-160x200.png">Banner 160x200</a> (com horário e local);
 
 Abraços.

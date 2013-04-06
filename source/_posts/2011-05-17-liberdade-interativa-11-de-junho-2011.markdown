@@ -26,10 +26,6 @@ Arduino - <a title="http://bit.ly/jJu8nM" href="http://bit.ly/jJu8nM">http://bit
 
 Nos vemos lá!
 
-<img src="http://www.tux-es.org/portal.old/sites/default/files/g5286_0.png" alt="" width="419" height="77" />
-
-&nbsp;
-
 Para divulgação sinta-se a vontade para usar as imagens a seguir:
 
 <a href="www.tux-es.org/portal.old/sites/default/files/g4592_1.png"> Banner Horizontal</a> &amp;&amp; <a href="www.tux-es.org/portal.old/sites/default/files/g4606_1.png">Banner Vertical </a>

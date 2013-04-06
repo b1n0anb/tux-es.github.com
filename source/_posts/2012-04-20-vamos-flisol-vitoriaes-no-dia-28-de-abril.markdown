@@ -14,14 +14,8 @@ Começará às 08:30 até 09 horas com a recepção, e a parti das 09h teremos a
 
 Após o almoço 12h às 14 horas, temos mais duas palestras com Léo Hacking falando sobre a Arte de promodorar, e após Almir Mendes fazendo um pequeno passeio no Shell Script.
 
-A <a href="http://www.mbooks.com.br">Editora Mbooks</a> doou para a comunidade um livro para sortearmos no evento: Excelência em Liderança para TI, autor Graham Waller, George Hallenbeck e Karen Rubenstrunk. Mais informações do livro, <a href="http://www.mbooks.com.br/cgi-bin/e-commerce/busca_e-commerce.cgi?lvcfg=mbooks&amp;action=saibamais&amp;codigo=801344">clique aqui</a>.
+A [Editora Mbooks](http://www.mbooks.com.br) doou para a comunidade um livro para sortearmos no evento: Excelência em Liderança para TI, autor Graham Waller, George Hallenbeck e Karen Rubenstrunk. [Clique aqui para mais informações sobre o livro](http://www.mbooks.com.br/cgi-bin/e-commerce/busca_e-commerce.cgi?lvcfg=mbooks&amp;action=saibamais&amp;codigo=801344).
 
-Capa do Livro:
-
-<a href="http://www.mbooks.com.br/cgi-bin/e-commerce/busca_e-commerce.cgi?lvcfg=mbooks&amp;amp;action=saibamais&amp;amp;codigo=801344"><img src="http://www.ibuscas.com.br/mbooks/img_lv/excelencia_em_lideranca_para_ti_big.jpg" alt="" width="183" height="277" /></a>
-
-Acesse o site do evento:
-
-<a href="http://flisol-es.heroku.com">http://flisol-es.heroku.com</a>
+[Acesse o site do evento](http://flisol-es.heroku.com)
 
 Esperamos você por lá!

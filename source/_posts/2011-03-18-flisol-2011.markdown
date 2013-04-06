@@ -6,8 +6,6 @@ comments: true
 published: true
 ---
 
-<img src="http://binoinformatica.com/blog/imagens/flisol-vitoria.png" alt="" width="342" height="102" />
-
 O FLISOL, Festival Latino Americano de Instalação de Sofware Livre, é um  evento voltado para divulgação do Software Livre que acontece  mutuamente em vários estados e países da América Latina. Considerado uns  dos maiores eventos de Sofware Livre o FLISOL é normalmente realizado  no mês de Abril, esse ano não será diferente, no dia 09 de Abril de 2011  as 09 horas (sim, num sábado. ) a comunidade Tux-ES e a <a href="http://www.espiritolivre.org/">Iniciativa Espírito Livre</a> realizará mais uma edição do FLISOL em Vitória que será realizada pela  primeira vez em conjunto com o DFD, Document Freedom Day.
 <h3>Data:</h3>
 09 de Abril de 2011
