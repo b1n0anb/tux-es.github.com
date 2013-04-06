@@ -13,4 +13,4 @@ Você é mais que convidado a participar também! Os assuntos são os mais varia
 
 Pedimos que os membros novos enviem um e-mail avisando que é novo na comunidade, assim os demais membros podem dar as boas vindas ao novo integrante e mostrar os _caminhos das pedras_.
 
-Para se inscrever acesse o endereço [https://groups.google.com/group/tuxes/subscribe], e desde já seja bem vindo `;)`
+Para se inscrever acesse o endereço do [nosso grupo no Google](https://groups.google.com/group/tuxes/subscribe), e desde já seja bem vindo `;)`
