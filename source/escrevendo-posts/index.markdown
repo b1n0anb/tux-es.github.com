@@ -18,28 +18,43 @@ O primeiro ponto a ser observado é que o Octopress é um sistema feito em Ruby,
     $ rvm use 1.9.3
     $ rvm rubygems latest
 
-Todo o site esta no repositório [tux-es.github.com](http://github.com/Tux-ES). Para escrever posts, você deve fazer um fork do repositório para o seu perfil do Github. Depois do fork feito, siga os passos abaixo:
+Todo o site esta no repositório [tux-es.github.com](http://github.com/Tux-ES). Para escrever posts, você deve:
+
+1. Fazer um fork do repositório para o seu perfil do Github
+2. Criar seu post
+3. Subir seu post em uma branch separada
+4. Fazer o pull request
+
+Nós criamos um pequeno passo a passo que pode lhe ajudar, então vamos lá, o primeiro passo é fazer o fork, depois de feito execute:
 
     $ git clone git@github.com:SEU_USER/tux-es.github.com
     $ cd tux-es.github.com
-    $ git checkout -b source --track origin/source
-    $ sudo gem install bundler
-    $ bundle install 
-
-Agora vamos configurar o deploy _automágico_ das suas postagens para o seu repositório no Github. Basta digitar o comando abaixo e preencher as informações sobre o seu repositório:
-
-    $ rake setup_github_pages
+    $ git remote add upstream git@github.com:Tux-ES/tux-es.github.com.git
+    $ git fetch --all
+    $ git checkout source && git rebase upstream/source # Em teoria esse procedimento não deve gerar qualquer conflito :)
+    $ gem install bundler
+    $ bundle install
 
 Ambiente configurado, vamos ao que interessa!
 
 Escrevendo posts
 -----------------
 
+Antes de escrever um post é importante criar uma branch para essa nova publicação, isso facilita na hora que formos aprovar seu pull request.
+
+Então faça:
+
+    $ git checkout source # apenas se não estiver na branch de nome source
+    $ git rebase upstream/source
+    $ git checkout meu-novo-post # Use aqui o nome que desejar
+
 Para escrever posts no Octopress é muito simples, basta criar o post com o seguinte comando:
 
     $ rake new_post['O Título do seu post aqui']
 
-Isso vai criar um arquivo em _source/_posts/YY-mm-dd-o-titulo-do-seu-post-aqui.markdown_ e é dentro dele que você vai colocar o conteúdo do seu post. Como você pode perceber, o nome do seu post é que vai ser usado para definir o slug da sua URL.
+Isso vai criar um arquivo em `source/_posts/YY-mm-dd-o-titulo-do-seu-post-aqui.markdown`, é dentro dele que você vai colocar o conteúdo do seu post. Como você pode perceber, o nome do seu post é que vai ser usado para definir o slug da sua URL.
+
+Outro detalhe sobre é sobre o formato do arquivo. Os arquivos *devem* ser escritos em Markdown, entretanto o Octopress também permite o uso de HTML junto ao Markdown. Mas pedimos que só utilize HTML em último caso, com Markdown o código fica mais limpo e bonito.
 
 Ao abrir o arquivo do seu post, você verá o seguinte conteúdo:
 
@@ -60,33 +75,17 @@ Desses dados, é interessante comentar:
 * __categories:__ A categoria em que se encaixa o post. Caso tenha mais de uma, basta passar uma lista [item1, item2, item3]
 * __author:__ Nome do autor do post. Se não for passado ele pegará o autor padrão do arquivo de configuração.
 
-E caso você esteja trabalhando em um rascunho, você pode inserir a opção __published: false__ que ele não será postado quando você gerar o conteúdo.
+E caso você esteja trabalhando em um rascunho, você pode inserir a opção `published: false` que ele não será postado quando você gerar o conteúdo.
 
-Para publicar o conteúdo do seu post no arquivo você deve usar a syntax markdown [Discount](http://tedwise.com/markdown/)
+Como já mencionamos, para escrever o conteúdo do seu post no arquivo você deve usar a syntax markdown [Discount](http://tedwise.com/markdown/)
 
-Pronto! Seu post esta feito, agora temos que publicá-lo!
+Pronto! Seu post esta feito. Para ter uma visualização de como está ficando você pode rodar o comando `rake preview` na raiz do projeto e acessar pelo seu navegador pela url `http://localhost:4000/`.
 
-Gerando o conteúdo e publicando no site
-----------------------------------------
+Fazendo o Pull Request
+----------------------
 
-Na raiz do projeto, rode:
+Este processo já é coberto pela documentação do GitHub, portanto a sugestão é que [visite o link descritivo desse processo](https://help.github.com/articles/fork-a-repo).
 
-    $ rake generate
-
-Isso irá gerar os seus posts no formato html e coloca-los na pasta _deploy. Logo em seguida:
-
-    $ rake deploy
-
-Isso irá enviar as mudanças para o seu repositório no Github, dentro do seu _branch master_
-
-Agora, se você acessar o seu repositório _tux-ex.github.com_ irá ver que o branch master esta com as modificações que você acabou de enviar.
-
-Para que esse conteúdo seja publicado de fato no site da Comunidade Tux-ES, faça um __Pull Request__ das suas modificações para o repositório oficial da comunidade.
-
-Não se esqueça de commitar suas modificações no source!
-
-    $ git add .
-    $ git commit -m "Sua mensagem de commit"
-    $ git push origin source
+Assim que o pull request for feito nós receberemos uma notificação e entraremos em contato ;).
 
 _That's all folks!_ _Let's Hack!_
