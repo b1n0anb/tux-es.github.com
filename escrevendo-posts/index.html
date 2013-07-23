@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Escrevendo posts para a comunidade - Tux-ES</title>
+  <meta name="author" content="Tux">
+
+  
+  <meta name="description" content="Escrevendo Posts Para a Comunidade O site Tux-ES utiliza o Octopress para gerenciar o conteúdo. Isso facilita a administração do site, pois &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://Tux-ES.github.com/escrevendo-posts">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Tux-ES" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34640701-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Tux-ES</a></h1>
+  
+    <h2>Portal da Comunidade Tux-ES</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:Tux-ES.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/irc">Nosso canal de IRC</a></li>
+  <li><a href="/lista-de-discussao">Participe você também</a></li>
+  <li><a href="/escrevendo-posts">Aprenda a postar no blog!</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Escrevendo Posts Para a Comunidade</h1>
+    
+  </header>
+  
+  <p>O site Tux-ES utiliza o <a href="http://www.octopress.org">Octopress</a> para gerenciar o conteúdo. Isso facilita a administração do site, pois conseguimos fazer um site bonito, bem estruturado e hospedado no gh-pages.</p>
+
+<h2>Preparando o ambiente para contribuição</h2>
+
+<p>O primeiro ponto a ser observado é que o Octopress é um sistema feito em Ruby, dessa forma, você precisa ter o Ruby 1.9.3 instalado em sua máquina de desenvolvimento. Para isso instale o <a href="https://rvm.io/">RVM</a> e depois utilize-o para instalar o Ruby:</p>
+
+<pre><code>$ curl -L https://get.rvm.io | bash -s stable --ruby
+$ rvm install 1.9.3
+$ rvm use 1.9.3
+$ rvm rubygems latest
+</code></pre>
+
+<p>Todo o site esta no repositório <a href="http://github.com/Tux-ES">tux-es.github.com</a>. Para escrever posts, você deve:</p>
+
+<ol>
+<li>Fazer um fork do repositório para o seu perfil do Github</li>
+<li>Criar seu post</li>
+<li>Subir seu post em uma branch separada</li>
+<li>Fazer o pull request</li>
+</ol>
+
+
+<p>Nós criamos um pequeno passo a passo que pode lhe ajudar, então vamos lá, o primeiro passo é fazer o fork, depois de feito execute:</p>
+
+<pre><code>$ git clone git@github.com:SEU_USER/tux-es.github.com
+$ cd tux-es.github.com
+$ git remote add upstream git@github.com:Tux-ES/tux-es.github.com.git
+$ git fetch --all
+$ git checkout source &amp;&amp; git rebase upstream/source # Em teoria esse procedimento não deve gerar qualquer conflito :)
+$ gem install bundler
+$ bundle install
+</code></pre>
+
+<p>Ambiente configurado, vamos ao que interessa!</p>
+
+<h2>Escrevendo posts</h2>
+
+<p>Antes de escrever um post é importante criar uma branch para essa nova publicação, isso facilita na hora que formos aprovar seu pull request.</p>
+
+<p>Então faça:</p>
+
+<pre><code>$ git checkout source # apenas se não estiver na branch de nome source
+$ git rebase upstream/source
+$ git checkout meu-novo-post # Use aqui o nome que desejar
+</code></pre>
+
+<p>Para escrever posts no Octopress é muito simples, basta criar o post com o seguinte comando:</p>
+
+<pre><code>$ rake new_post['O Título do seu post aqui']
+</code></pre>
+
+<p>Isso vai criar um arquivo em <code>source/_posts/YY-mm-dd-o-titulo-do-seu-post-aqui.markdown</code>, é dentro dele que você vai colocar o conteúdo do seu post. Como você pode perceber, o nome do seu post é que vai ser usado para definir o slug da sua URL.</p>
+
+<p>Outro detalhe sobre é sobre o formato do arquivo. Os arquivos <em>devem</em> ser escritos em Markdown, entretanto o Octopress também permite o uso de HTML junto ao Markdown. Mas pedimos que só utilize HTML em último caso, com Markdown o código fica mais limpo e bonito.</p>
+
+<p>Ao abrir o arquivo do seu post, você verá o seguinte conteúdo:</p>
+
+<pre><code>---
+layout: post
+title: "O Título do seu post aqui"
+date: 2011-07-03 5:59
+comments: true
+external-url:
+categories:
+author:
+---
+</code></pre>
+
+<p>Desses dados, é interessante comentar:</p>
+
+<ul>
+<li><strong>title:</strong> É onde vai ficar o título do seu post que será usado na tag <em>title</em> da página</li>
+<li><strong>date:</strong> É a data e hora em que o post foi feito. Caso você não queira que isso apareça, basta remover</li>
+<li><strong>categories:</strong> A categoria em que se encaixa o post. Caso tenha mais de uma, basta passar uma lista [item1, item2, item3]</li>
+<li><strong>author:</strong> Nome do autor do post. Se não for passado ele pegará o autor padrão do arquivo de configuração.</li>
+</ul>
+
+
+<p>E caso você esteja trabalhando em um rascunho, você pode inserir a opção <code>published: false</code> que ele não será postado quando você gerar o conteúdo.</p>
+
+<p>Como já mencionamos, para escrever o conteúdo do seu post no arquivo você deve usar a syntax markdown <a href="http://tedwise.com/markdown/">Discount</a></p>
+
+<p>Pronto! Seu post esta feito. Para ter uma visualização de como está ficando você pode rodar o comando <code>rake preview</code> na raiz do projeto e acessar pelo seu navegador pela url <code>http://localhost:4000/</code>.</p>
+
+<h2>Fazendo o Pull Request</h2>
+
+<p>Este processo já é coberto pela documentação do GitHub, portanto a sugestão é que <a href="https://help.github.com/articles/fork-a-repo">visite o link descritivo desse processo</a>.</p>
+
+<p>Assim que o pull request for feito nós receberemos uma notificação e entraremos em contato ;).</p>
+
+<p><em>That&#8217;s all folks!</em> <em>Let&#8217;s Hack!</em></p>
+
+  
+    <footer>
+      
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://Tux-ES.github.com/escrevendo-posts/index.html" data-via="_Tuxes" data-counturl="http://Tux-ES.github.com/escrevendo-posts/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/09/08/portal-de-cara-nova/">Portal de cara nova</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/05/14/arduino-hack-day-ii/">Arduino Hack Day II</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/20/vamos-flisol-vitoriaes-no-dia-28-de-abril/">Vamos! FLISOL - ES no dia 28 de Abril</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/11/liberdade-interativa-bsf/">Liberdade Interativa em Barra de São Francisco</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/02/07/liberdade-interativa-cachoerio-de-itapemirim/">Liberdade Interativa em Cachoeiro de Itapemirim</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/Tux-ES">@Tux-ES</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Tux-ES',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Tux -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'tuxes';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://Tux-ES.github.com/escrevendo-posts/index.html';
+        var disqus_url = 'http://Tux-ES.github.com/escrevendo-posts/index.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

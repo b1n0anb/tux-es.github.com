@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tuxes | Tux-ES]]></title>
+  <link href="http://Tux-ES.github.com/blog/categories/tuxes/atom.xml" rel="self"/>
+  <link href="http://Tux-ES.github.com/"/>
+  <updated>2013-07-23T12:47:55-03:00</updated>
+  <id>http://Tux-ES.github.com/</id>
+  <author>
+    <name><![CDATA[Tux]]></name>
+    <email><![CDATA[tuxes@googlegroups.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Portal de cara nova]]></title>
+    <link href="http://Tux-ES.github.com/blog/2012/09/08/portal-de-cara-nova/"/>
+    <updated>2012-09-08T20:24:00-03:00</updated>
+    <id>http://Tux-ES.github.com/blog/2012/09/08/portal-de-cara-nova</id>
+    <content type="html"><![CDATA[<p>Olá amigos!</p>
+
+<p>Como já perceberam o nosso portal mudou, antes utilizávamos o Wordpress como ferramenta de blogging, decidimos após algumas conversas a mudar a ferramenta. Nós não temos nada contra o Wordpress, muito pelo contrário, é uma ferramenta e tanto. Entretanto como comunidade de software livre nós decidimos experimentar uma ferramenta nova.</p>
+
+<p>Alguns membros da utilizam o <a href="http://www.octopress.org">Octopress</a> como ferramenta de blogging e comentaram que seria interessante a comunidade utilizar também, isso ajudaria em vários aspectos, muitos deles associados à ferramenta <code>git</code> e ao serviço fornecido pelo <a href="http://www.github.com/">Github</a>. Para quem não conhece essas são duas ferramentas que estão sendo utilizadas, e muito, para a manter inúmeros softwares livres: linguagens, frameworks, ferramentas, etc.</p>
+
+<p>Todos esses recursos aliados a possibilidade de utilizar o próprio Github, através do <a href="http://pages.github.com/">Github Pages</a>, para hospedar o site tornaram-se ótimos argumentos para a migração.</p>
+
+<p>Migramos o site! E agora qualquer um pode contribuir, basta fazer o <a href="https://github.com/Tux-ES/tux-es.github.com">fork do projeto do portal no Github</a>, <a href="http://octopress.org/docs/blogging/">criar seu post</a> e fazer o <a href="https://help.github.com/articles/using-pull-requests">pull request</a>.</p>
+
+<p>Caso a frase acima senha completamente estranha para você, sugerimos que faça um breve estudo sobre como utilizar o Git, um bom ponto de partida é o <a href="https://help.github.com/articles/using-pull-requests">Screencast do Akita on Rails</a>.</p>
+
+<p>Qualquer dúvida, sugestão, crítica, ajuda, etc será muito bem vinda, você pode fazê-lo através dos vários canais que temos para isso:</p>
+
+<ul>
+<li><a href="/irc">IRC</a></li>
+<li><a href="/lista-de-discussao">Lista de Discussão</a></li>
+<li><a href="https://twitter.com/_tuxes">Twitter</a></li>
+<li>e comentários no blog..</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
