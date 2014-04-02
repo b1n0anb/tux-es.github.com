@@ -4,7 +4,7 @@
   <title><![CDATA[Tux-ES]]></title>
   <link href="http://Tux-ES.github.com/atom.xml" rel="self"/>
   <link href="http://Tux-ES.github.com/"/>
-  <updated>2013-07-23T12:47:55-03:00</updated>
+  <updated>2014-04-02T18:09:29-03:00</updated>
   <id>http://Tux-ES.github.com/</id>
   <author>
     <name><![CDATA[Tux]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Liberdade Interativa 2014]]></title>
+    <link href="http://Tux-ES.github.com/blog/2014/04/02/liberdade-interativa-2014/"/>
+    <updated>2014-04-02T17:13:00-03:00</updated>
+    <id>http://Tux-ES.github.com/blog/2014/04/02/liberdade-interativa-2014</id>
+    <content type="html"><![CDATA[<p>Olá pessoal!</p>
+
+<p>Está para acontecer o primeiro Liberdade Interativa de 2014, e já tem data definida, será no dia 10 de maio.</p>
+
+<p>Quer propor uma palestra, lighting talk, hands on, etc. Foi aberto um call4paperz:</p>
+
+<p><a href="http://call4paperz.com/events/liberdade-interativa-vitoria-2014">http://call4paperz.com/events/liberdade-interativa-vitoria-2014</a></p>
+
+<p>Cadastre lá, todos podem participar. Os mais votados serão escolhidos para o evento ;-).</p>
+
+<p>O local ainda não foi definido. Assim que tivermos mais informações atualizaremos o post.</p>
+
+<p>Qualquer dúvida, sugestão, crítica, ajuda, etc será muito bem vinda, você pode fazê-lo através dos vários canais que temos para isso:</p>
+
+<ul>
+<li><a href="http://Tux-ES.github.com/irc">IRC</a></li>
+<li><a href="http://Tux-ES.github.com/lista-de-discussao">Lista de Discussão</a></li>
+<li><a href="https://twitter.com/_tuxes">Twitter</a></li>
+<li>e comentários no blog.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Portal de cara nova]]></title>
@@ -565,7 +594,7 @@ Arduino - <a title="http://bit.ly/jJu8nM" href="http://bit.ly/jJu8nM">http://bit
   <entry>
     <title type="html"><![CDATA[Inscrição de palestras para o FLISOL 2011]]></title>
     <link href="http://Tux-ES.github.com/blog/2011/01/22/inscricao-de-palestra-para-o-flisol-2011/"/>
-    <updated>2011-01-22T18:06:00-03:00</updated>
+    <updated>2011-01-22T18:06:00-02:00</updated>
     <id>http://Tux-ES.github.com/blog/2011/01/22/inscricao-de-palestra-para-o-flisol-2011</id>
     <content type="html"><![CDATA[<p>Estão abertas as inscrições para o <strong>Festival Latino Americano de Instalação de Software Livre (FLISOL)</strong> 2011.</p>
 
@@ -578,7 +607,7 @@ Arduino - <a title="http://bit.ly/jJu8nM" href="http://bit.ly/jJu8nM">http://bit
   <entry>
     <title type="html"><![CDATA[Parabéns a Tux-ES]]></title>
     <link href="http://Tux-ES.github.com/blog/2010/12/08/parabens-a-tux-es/"/>
-    <updated>2010-12-08T18:05:00-03:00</updated>
+    <updated>2010-12-08T18:05:00-02:00</updated>
     <id>http://Tux-ES.github.com/blog/2010/12/08/parabens-a-tux-es</id>
     <content type="html"><![CDATA[<p>Saudações pessoal.</p>
 
@@ -599,51 +628,6 @@ Arduino - <a title="http://bit.ly/jJu8nM" href="http://bit.ly/jJu8nM">http://bit
 <p><strong>Artigo original publicado na Revista Espírito Livre ed. 20: </strong><a href="http://www.revista.espiritolivre.org/?p=831">http://www.revista.espiritolivre.org/?p=831</a></p>
 
 <p>Aniversário foi no mês de Novembro</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Liberdade Interativa 08/12/2010]]></title>
-    <link href="http://Tux-ES.github.com/blog/2010/12/01/liberdade-interativa-08-12-10/"/>
-    <updated>2010-12-01T18:04:00-03:00</updated>
-    <id>http://Tux-ES.github.com/blog/2010/12/01/liberdade-interativa-08-12-10</id>
-    <content type="html"><![CDATA[<p>Na próxima semana, teremos em Vitória a quarta  edição do Liberdade Interativa, evento organizado pela comunidade  Tux-ES, que tem como objetivo aproximar as pessoas da comunidade de  software livre do Espírito Santo. Nesta edição, de caráter relativamente  especial, contaremos com a presença de um visitante carioca: Henrique  Bastos, diretor de tecnologia da Myfreecomm e membro da comunidade de  desenvolvedores de software do Rio de Janeiro.</p>
-
-<p><strong>A programação:</strong></p>
-
-<p>18h30min – Credenciamento
-18h45min – Abertura
-19h00min – <strong>BDD: Desenvolvimento guiado por comportamento</strong> - Francisco Souza
-19h50min – <strong>Empreendendo uma comunidade de sucesso</strong> - Henrique Bastos
-20h40min – <strong>Controle de versão sem dor de cabeça com Gi</strong>t - Paulo Jeveaux
-21h30min – #horaextra</p>
-
-<p><strong>Local</strong>: FAESA Campus 1, Rua Anselmo Serrat, 199,  próximo a Av. Vitória e Av. Marechal Campus, no bairro Ilha de Santa  Maria, em Vitória/ES. No Auditório Central!</p>
-
-<p><strong>Detalhes das palestras:</strong></p>
-
-<p><strong>Desenvolvimento guiado por comportamento</strong></p>
-
-<p>Behaviour-driven development (BDD) é um tema emergente. Trata-se de  uma prática de especificação e design de software, que tem como efeito  colateral a construção de testes de regressão capazes de ajudar na  garantia do funcionamento de um software. Nesta palestra você conhecerá  os conceitos do desenvolvimento guiado por comportamento (BDD), e  entenderá como guiar o design e a arquitetura de um software através da  escrita de especificações executáveis e de alto nível.</p>
-
-<p><strong>Palestrante:</strong> Francisco Souza
-Francisco Souza Mundialmente conhecido no interior de Cachoeiro de  Itapemirim, Francisco Souza é membro do time de desenvolvedores e  jogadores de videogame da Giran. É apaixonado por desenvolvimento de  softwares, entusiasta em Python, Django e software livre, viciado em  coding dojos e associado à Associação Python Brasil. Participa  ativamente nas comunidades locais de desenvolvimento e software livre.  Por último, mas não menos importante, é estudante de Licenciatura em  Informática e possui todas as certificações PMP (Professional Mario  Player).</p>
-
-<p><strong>Empreendendo uma comunidade de sucesso</strong></p>
-
-<p>Descubra como canalizar o poder da Internet em ações reais! Como  utilizar o mundo virtual para organizar grupos de pessoas de forma  colaborativa, distribuída e auto-gerenciada. Conheça as lições  aprendidas com a experiência de mais de 2 anos empreendendo a comunidade  de software do Rio de Janeiro. Uma comunidade que começou local e vem  se expandindo para além das fronteiras do estado e do país.</p>
-
-<p><strong>Palestrante:</strong> Henrique Bastos
-Henrique BastosHenrique Bastos é apaixonado por desenvolvimento de  software! Trabalha desenvolvendo sistemas com Python, Django e Métodos  Ágeis. Além de atuar constantemente nas comunidades de software  organizando eventos e encontros, ministrando palestras,  cursosevangelizando o desenvolvimento sustentável de software, no Brasil  e no exterior.</p>
-
-<p><strong>Controle de versão sem dor de cabeça com Git</strong></p>
-
-<p>GIT é um projeto open source, escrito originalmente por Linus  Torvalds para manter o controle de versão do código do Kernel do Linux  de forma distribuída e focada em eficiência e rapidez. Descubra como  aproveitar o poder desta ferramenta para gerenciar de maneira simples e  eficaz o código dos seus projetos também.</p>
-
-<p><strong>Palestrante:</strong> Paulo César M. Jeveaux
-Paulo César M. JeveauxJeveaux trabalha na Giran Soluções e Ensino, onde  atua com desenvolvimento de plataformas e serviços para internet de alta  performance e escalabilidade utilizando metodologias ágeis como XP e  Scrum. É fundador do Grupo de Usuários Java do Espírito Santo (ESJug),  do grupo de metodologias ágeis (Agile-ES), foi administrador do  PortalJava por 8 anos e hoje participa da moderação do GUJ. Possui mais  de 9 anos de experiência em desenvolvimento de sistemas em diversos  segmentos, passando por globo.com, Vale, Claro, Xerox, CEF e outras.  Grande entusiasta e participante ativo das comunidades de Java, Agile,  Ruby e Linux.</p>
-
-<p>Contamos com sua presença.</p>
 ]]></content>
   </entry>
   
