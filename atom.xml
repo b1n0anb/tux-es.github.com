@@ -4,7 +4,7 @@
   <title><![CDATA[Tux-ES]]></title>
   <link href="http://Tux-ES.github.com/atom.xml" rel="self"/>
   <link href="http://Tux-ES.github.com/"/>
-  <updated>2014-04-02T18:09:29-03:00</updated>
+  <updated>2014-05-08T10:54:17-03:00</updated>
   <id>http://Tux-ES.github.com/</id>
   <author>
     <name><![CDATA[Tux]]></name>
@@ -15,20 +15,32 @@
   
   <entry>
     <title type="html"><![CDATA[Liberdade Interativa 2014]]></title>
-    <link href="http://Tux-ES.github.com/blog/2014/04/02/liberdade-interativa-2014/"/>
-    <updated>2014-04-02T17:13:00-03:00</updated>
-    <id>http://Tux-ES.github.com/blog/2014/04/02/liberdade-interativa-2014</id>
+    <link href="http://Tux-ES.github.com/blog/2014/05/08/liberdade-interativa-2014/"/>
+    <updated>2014-05-08T10:10:00-03:00</updated>
+    <id>http://Tux-ES.github.com/blog/2014/05/08/liberdade-interativa-2014</id>
     <content type="html"><![CDATA[<p>Olá pessoal!</p>
 
-<p>Está para acontecer o primeiro Liberdade Interativa de 2014, e já tem data definida, será no dia 10 de maio.</p>
+<p>Está para acontecer o primeiro Liberdade Interativa de 2014, será no dia 10 de maio as 9h.</p>
 
-<p>Quer propor uma palestra, lighting talk, hands on, etc. Foi aberto um call4paperz:</p>
+<p>Palestras:</p>
 
-<p><a href="http://call4paperz.com/events/liberdade-interativa-vitoria-2014">http://call4paperz.com/events/liberdade-interativa-vitoria-2014</a></p>
+<ul>
+<li>Desenvolvimento front-end com AngularJS - Denilson Telaroli</li>
+<li>Testando aplicações Ruby on Rails com RSpec - Hercules Merscher</li>
+</ul>
 
-<p>Cadastre lá, todos podem participar. Os mais votados serão escolhidos para o evento ;-).</p>
 
-<p>O local ainda não foi definido. Assim que tivermos mais informações atualizaremos o post.</p>
+<p>Local:</p>
+
+<p>FlexaIT</p>
+
+<p>Rua Leila Diniz, 9 - Sala 104, Nova Itaparica, Vila Velha</p>
+
+<p>Entre Gaivotas e Novo México, próximo ao canal, sobre a loja de doces.</p>
+
+<p>Google Maps:</p>
+
+<p><a href="https://www.google.com.br/maps/place/Flexa+Information+Technology/@-20.3731414,-40.3147902,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x5faf397161bb6f9e">https://www.google.com.br/maps/place/Flexa+Information+Technology/@-20.3731414,-40.3147902,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x5faf397161bb6f9e</a></p>
 
 <p>Qualquer dúvida, sugestão, crítica, ajuda, etc será muito bem vinda, você pode fazê-lo através dos vários canais que temos para isso:</p>
 
